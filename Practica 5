@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h> // Para system()
+
+int main() {
+    int suma = 0; // Inicializa la variable suma
+    int i;
+
+    for (i = 1; i <= 100; i++) {
+        suma += i; // Acumula la suma
+    }
+
+    printf("%d\n", suma); // Imprime la suma total
+
+    system("pause"); // Pausa el sistema
+    return 0; // Termina el programa correctamente
+}
